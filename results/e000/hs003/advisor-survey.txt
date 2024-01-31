@@ -1,0 +1,19 @@
+
+Intel(R) Advisor Command Line Tool
+Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
+Survey Data version="1.1.0"
+
+ID     Function Call Sites and Loops      Total Time   Self Time                   Type                                         Why No Vectorization                          Vector ISA   Compiler Estimated Gain   Transformations   Source Location     Module      
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 7   [loop in matvec at Multiply.c:82]        2.550s      2.550s                                 Scalar                            vector dependence prevents vectorization                                                              Multiply.c:82   vec_samples   
+17   [loop in matvec at Multiply.c:69]        0.630s      0.630s   Vectorized (Body; Peeled; Remainder)                                                                              SSE                     0.99x                       Multiply.c:69   vec_samples   
+10   -[loop in matvec at Multiply.c:69]       0.610s      0.610s                      Vectorized (Body)                                                                              SSE                     0.99x                       Multiply.c:69   vec_samples   
+11   -[loop in matvec at Multiply.c:69]       0.010s      0.010s                              Remainder                                                                                                                                  Multiply.c:69   vec_samples   
+15   -[loop in matvec at Multiply.c:69]       0.010s      0.010s                                 Peeled                                                                                                                                  Multiply.c:69   vec_samples   
+ 8   [loop in matvec at Multiply.c:49]        3.880s      0.350s                                 Scalar                                   inner loop was already vectorized                                                              Multiply.c:49   vec_samples   
+16   [loop in matvec at Multiply.c:60]        0.350s      0.350s                    Vectorized Versions                                                                              SSE                    <3.96x                       Multiply.c:60   vec_samples   
+ 9   -[loop in matvec at Multiply.c:60]       0.220s      0.220s                      Vectorized (Body)                                                                              SSE                     3.96x                       Multiply.c:60   vec_samples   
+12   -[loop in matvec at Multiply.c:60]       0.070s      0.070s                      Vectorized (Body)                                                                              SSE                     3.96x                       Multiply.c:60   vec_samples   
+13   -[loop in matvec at Multiply.c:60]       0.050s      0.050s                                 Peeled                                                                                                                                  Multiply.c:60   vec_samples   
+14   -[loop in matvec at Multiply.c:60]       0.010s      0.010s                              Remainder                                                                                                                                  Multiply.c:60   vec_samples   
+ 6   [loop in main at Driver.c:155]           3.880s          0s                                 Scalar   loop with function call not considered an optimization candidate.                                                               Driver.c:155   vec_samples   

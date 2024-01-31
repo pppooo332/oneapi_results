@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/root/vec_samples/src/Multiply.c"
+           line_no="49"
+           routine="matvec"
+           is_vectorized="0"
+           self_time="3.500031E-01"
+           total_time="3.880000E+00"
+           trip_counts=""
+           func_instance="6"
+           priority="0"/>
+  <hotspot filename="/root/vec_samples/src/Driver.c"
+           line_no="155"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.880000E+00"
+           trip_counts=""
+           func_instance="2"
+           priority="0"/>
+  <hotspot filename="/root/vec_samples/src/Multiply.c"
+           line_no="82"
+           routine="matvec"
+           is_vectorized="0"
+           self_time="2.549973E+00"
+           total_time="2.549973E+00"
+           trip_counts=""
+           func_instance="4"
+           priority="0"/>
+  <hotspot filename="/root/vec_samples/src/Multiply.c"
+           line_no="69"
+           routine="matvec"
+           is_vectorized="1"
+           self_time="6.300443E-01"
+           total_time="6.300443E-01"
+           trip_counts=""
+           func_instance="27"
+           confidence="0"
+           efficiency="2.475000E+01"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+  <hotspot filename="/root/vec_samples/src/Multiply.c"
+           line_no="60"
+           routine="matvec"
+           is_vectorized="1"
+           self_time="3.499796E-01"
+           total_time="3.499796E-01"
+           trip_counts=""
+           func_instance="26"
+           confidence="0"
+           efficiency="9.900000E+01"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
