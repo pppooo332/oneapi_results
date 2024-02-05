@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
  <rdmgr>
-  <timestamp type="u64_t">1707116836</timestamp>
+  <timestamp type="u64_t">1707117302</timestamp>
   <hostname type="string">8c016de5842c</hostname>
   <os type="string">linux</os>
   <product type="string">Intel® Advisor 2022.0</product>
@@ -15,9 +15,9 @@
   <CPUStepping type="s32_t">4</CPUStepping>
   <CPUBrandName type="string">Intel(R) Xeon(R) Platinum</CPUBrandName>
   <isa type="string">avx512</isa>
-  <collectionTimeBegin type="u64_t">1707116836</collectionTimeBegin>
-  <collectionTimeEnd type="u64_t">1707116836</collectionTimeEnd>
-  <finalizationTimeBegin type="u64_t">1707116836</finalizationTimeBegin>
-  <finalizationTimeEnd type="u64_t">1707116837</finalizationTimeEnd>
+  <collectionTimeBegin type="u64_t">1707117302</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1707117303</collectionTimeEnd>
+  <finalizationTimeBegin type="u64_t">1707117303</finalizationTimeBegin>
+  <finalizationTimeEnd type="u64_t">1707117304</finalizationTimeEnd>
  </rdmgr>
 </root>

@@ -1,9 +1,0 @@
-
-Intel(R) Advisor Command Line Tool
-Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
-Survey Data version="1.1.0"
-
-ID        Function Call Sites and Loops         Total Time   Self Time         Type          Why No Vectorization   Vector ISA   Compiler Estimated Gain   Transformations   Source Location   Module   
-________________________________________________________________________________________________________________________________________________________________________________________________________
- 6   [loop in complexLoop at vecTest.cpp:20]        0.010s      0.010s   Vectorized (Body)                                 SSE                     4.89x                      vecTest.cpp:20    a.out   
- 2   -[loop in complexLoop at vecTest.cpp:20]       0.010s      0.010s   Vectorized (Body)                                 SSE                     4.89x                      vecTest.cpp:20    a.out   

@@ -2,16 +2,123 @@
 #    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
          1	        -1	      4752	    0	      0	                                  _start	/root/a.out	4752	43	0	1	0	0	0	0	0	0	0	0
          2	        -1	      4793	    0	      0	                                  _start	/root/a.out	4752	43	0	1	0	0	0	0	0	0	0	0
-         3	         2	    138230	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	138000	446	0	8	0	0	0	0	0	0	0	0
-         4	         7	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
-         5	         3	      5661	    0	      0	                                    main	/root/a.out	5024	1392	0	4	0	0	0	0	0	0	0	0
-         6	         5	      5804	    0	      0	                             complexLoop	/root/a.out	5661	228	0	3	0	1	0	0	0	0	0	0
-         7	         6	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5733,5797,5834,5889	9	0	0	0	0	0	0	0	0
-         8	         5	      5809	    0	      0	                             complexLoop	/root/a.out	5661	228	0	3	0	1	0	0	0	0	0	0
-         9	         3	      5809	    0	      0	                                    main	/root/a.out	5024	1392	0	4	0	0	0	0	0	0	0	0
-        10	         7	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
-        11	         7	      5701	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5700	33	0	5	0	0	0	0	0	0	0	0
-        12	         7	      5768	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5767	30	5797	6	0	0	0	0	0	0	0	0
-        13	         7	      5805	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
-        14	         7	      5852	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5851	38	0	7	0	0	0	0	0	0	0	0
-        15	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	11	0	0	0	0	0	0	0	0
+         3	         2	    138230	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	138000	446	0	22	0	0	0	0	0	0	0	0
+         4	        19	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+         5	        26	      5291	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+         6	        33	      5296	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+         7	        40	      5301	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+         8	        47	      5305	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+         9	        56	      5520	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        10	        64	      5511	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        11	        72	      5515	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        12	        82	      5779	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        13	        90	      5775	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        14	        98	      5782	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        15	       108	      6052	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+        16	       115	      6058	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+        17	         3	139627810589567	    0	      0	              [Outside any known module]	n/a	0	0	0	21	0	0	0	0	0	0	0	0
+        18	         3	      5287	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        19	        18	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5207,5285,5310,6479	26	0	0	0	0	0	0	0	0
+        20	         3	      5287	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        21	        19	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        22	        19	      5188	    1	      0	               [Loop at line 40 in main]	/root/a.out	5187	20	0	10	0	0	0	0	0	0	0	0
+        23	        19	      5263	    1	      0	               [Loop at line 40 in main]	/root/a.out	5262	23	5285	11	0	0	0	0	0	0	0	0
+        24	        19	      5288	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        25	        19	      6456	    1	      0	               [Loop at line 40 in main]	/root/a.out	6455	24	0	20	0	0	0	0	0	0	0	0
+        26	        18	      5291	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5207,5285,5310,6479	26	0	0	0	0	0	0	0	0
+        27	         3	      5291	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        28	        26	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        29	        26	      5188	    1	      0	               [Loop at line 40 in main]	/root/a.out	5187	20	0	10	0	0	0	0	0	0	0	0
+        30	        26	      5263	    1	      0	               [Loop at line 40 in main]	/root/a.out	5262	23	5285	11	0	0	0	0	0	0	0	0
+        31	        26	      5288	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        32	        26	      6456	    1	      0	               [Loop at line 40 in main]	/root/a.out	6455	24	0	20	0	0	0	0	0	0	0	0
+        33	        18	      5296	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5207,5285,5310,6479	26	0	0	0	0	0	0	0	0
+        34	         3	      5296	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        35	        33	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        36	        33	      5188	    1	      0	               [Loop at line 40 in main]	/root/a.out	5187	20	0	10	0	0	0	0	0	0	0	0
+        37	        33	      5263	    1	      0	               [Loop at line 40 in main]	/root/a.out	5262	23	5285	11	0	0	0	0	0	0	0	0
+        38	        33	      5288	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        39	        33	      6456	    1	      0	               [Loop at line 40 in main]	/root/a.out	6455	24	0	20	0	0	0	0	0	0	0	0
+        40	        18	      5301	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5207,5285,5310,6479	26	0	0	0	0	0	0	0	0
+        41	         3	      5301	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        42	        40	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        43	        40	      5188	    1	      0	               [Loop at line 40 in main]	/root/a.out	5187	20	0	10	0	0	0	0	0	0	0	0
+        44	        40	      5263	    1	      0	               [Loop at line 40 in main]	/root/a.out	5262	23	5285	11	0	0	0	0	0	0	0	0
+        45	        40	      5288	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        46	        40	      6456	    1	      0	               [Loop at line 40 in main]	/root/a.out	6455	24	0	20	0	0	0	0	0	0	0	0
+        47	        18	      5305	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5207,5285,5310,6479	26	0	0	0	0	0	0	0	0
+        48	         3	      5305	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        49	        47	      5287	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        50	        47	      5188	    1	      0	               [Loop at line 40 in main]	/root/a.out	5187	20	0	10	0	0	0	0	0	0	0	0
+        51	        47	      5263	    1	      0	               [Loop at line 40 in main]	/root/a.out	5262	23	5285	11	0	0	0	0	0	0	0	0
+        52	        47	      5288	    1	      0	               [Loop at line 40 in main]	/root/a.out	5287	23	5310	2	0	0	0	0	0	0	0	0
+        53	        47	      6456	    1	      0	               [Loop at line 40 in main]	/root/a.out	6455	24	0	20	0	0	0	0	0	0	0	0
+        54	         3	      5393	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        55	        54	      5511	    0	      0	                              simpleLoop	/root/a.out	5393	156	0	5	0	1	0	0	0	0	0	0
+        56	        55	      5520	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5446,5509,5534,6438	23	0	0	0	0	0	0	0	0
+        57	        54	      5520	    0	      0	                              simpleLoop	/root/a.out	5393	156	0	5	0	1	0	0	0	0	0	0
+        58	         3	      5520	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        59	        56	      5520	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        60	        56	      5422	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5421	25	0	12	0	0	0	0	0	0	0	0
+        61	        56	      5484	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5483	26	0	13	0	0	0	0	0	0	0	0
+        62	        56	      5512	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        63	        56	      6411	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	6410	28	0	19	0	0	0	0	0	0	0	0
+        64	        55	      5511	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5446,5509,5534,6438	23	0	0	0	0	0	0	0	0
+        65	        54	      5511	    0	      0	                              simpleLoop	/root/a.out	5393	156	0	5	0	1	0	0	0	0	0	0
+        66	         3	      5511	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        67	        64	      5520	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        68	        64	      5422	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5421	25	0	12	0	0	0	0	0	0	0	0
+        69	        64	      5484	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5483	26	0	13	0	0	0	0	0	0	0	0
+        70	        64	      5512	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        71	        64	      6411	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	6410	28	0	19	0	0	0	0	0	0	0	0
+        72	        55	      5515	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5446,5509,5534,6438	23	0	0	0	0	0	0	0	0
+        73	        54	      5515	    0	      0	                              simpleLoop	/root/a.out	5393	156	0	5	0	1	0	0	0	0	0	0
+        74	         3	      5515	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        75	        72	      5520	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        76	        72	      5422	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5421	25	0	12	0	0	0	0	0	0	0	0
+        77	        72	      5484	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5483	26	0	13	0	0	0	0	0	0	0	0
+        78	        72	      5512	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	5511	23	5534	4	0	0	0	0	0	0	0	0
+        79	        72	      6411	    1	      0	         [Loop at line 13 in simpleLoop]	/root/a.out	6410	28	0	19	0	0	0	0	0	0	0	0
+        80	         3	      5637	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        81	        80	      5770	    0	      0	                             complexLoop	/root/a.out	5637	178	0	7	0	1	0	0	0	0	0	0
+        82	        81	      5779	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5701,5768,5799,6405	24	0	0	0	0	0	0	0	0
+        83	        80	      5779	    0	      0	                             complexLoop	/root/a.out	5637	178	0	7	0	1	0	0	0	0	0	0
+        84	         3	      5779	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        85	        82	      5779	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        86	        82	      5669	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5668	33	0	14	0	0	0	0	0	0	0	0
+        87	        82	      5740	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5739	29	5768	15	0	0	0	0	0	0	0	0
+        88	        82	      5771	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        89	        82	      6369	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	6368	37	0	18	0	0	0	0	0	0	0	0
+        90	        81	      5775	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5701,5768,5799,6405	24	0	0	0	0	0	0	0	0
+        91	        80	      5775	    0	      0	                             complexLoop	/root/a.out	5637	178	0	7	0	1	0	0	0	0	0	0
+        92	         3	      5775	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+        93	        90	      5779	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        94	        90	      5669	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5668	33	0	14	0	0	0	0	0	0	0	0
+        95	        90	      5740	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5739	29	5768	15	0	0	0	0	0	0	0	0
+        96	        90	      5771	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+        97	        90	      6369	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	6368	37	0	18	0	0	0	0	0	0	0	0
+        98	        81	      5782	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5701,5768,5799,6405	24	0	0	0	0	0	0	0	0
+        99	        80	      5782	    0	      0	                             complexLoop	/root/a.out	5637	178	0	7	0	1	0	0	0	0	0	0
+       100	         3	      5782	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+       101	        98	      5779	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+       102	        98	      5669	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5668	33	0	14	0	0	0	0	0	0	0	0
+       103	        98	      5740	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5739	29	5768	15	0	0	0	0	0	0	0	0
+       104	        98	      5771	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5770	29	5799	6	0	0	0	0	0	0	0	0
+       105	        98	      6369	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	6368	37	0	18	0	0	0	0	0	0	0	0
+       106	         3	      5888	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+       107	       106	      6038	    0	      0	                          complexLoopTwo	/root/a.out	5888	179	0	9	0	1	0	0	0	0	0	0
+       108	       107	      6052	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067,6336,6356	25	0	0	0	0	0	0	0	0
+       109	       106	      6052	    0	      0	                          complexLoopTwo	/root/a.out	5888	179	0	9	0	1	0	0	0	0	0	0
+       110	         3	      6052	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+       111	       108	      6052	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+       112	       108	      6039	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+       113	       108	      6323	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6322	14	0	16	0	0	0	0	0	0	0	0
+       114	       108	      6342	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6341	15	0	17	0	0	0	0	0	0	0	0
+       115	       107	      6058	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067,6336,6356	25	0	0	0	0	0	0	0	0
+       116	       106	      6058	    0	      0	                          complexLoopTwo	/root/a.out	5888	179	0	9	0	1	0	0	0	0	0	0
+       117	         3	      6058	    0	      0	                                    main	/root/a.out	5024	1472	0	3	0	0	0	0	0	0	0	0
+       118	       115	      6052	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+       119	       115	      6039	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6038	29	6067	8	0	0	0	0	0	0	0	0
+       120	       115	      6323	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6322	14	0	16	0	0	0	0	0	0	0	0
+       121	       115	      6342	    1	      0	     [Loop at line 27 in complexLoopTwo]	/root/a.out	6341	15	0	17	0	0	0	0	0	0	0	0
+       122	        -1	         0	    0	      0	                      [Outside any loop]	n/a	0	0	0	27	0	0	0	0	0	0	0	0

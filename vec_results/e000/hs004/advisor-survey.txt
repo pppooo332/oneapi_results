@@ -1,0 +1,15 @@
+
+Intel(R) Advisor Command Line Tool
+Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
+Survey Data version="1.1.0"
+
+ID         Function Call Sites and Loops           Total Time   Self Time         Type          Why No Vectorization   Vector ISA   Compiler Estimated Gain   Transformations   Source Location   Module   
+___________________________________________________________________________________________________________________________________________________________________________________________________________
+29   [loop in main at vecTest.cpp:40]                  0.390s      0.390s   Vectorized (Body)                                 SSE                     4.00x                      vecTest.cpp:40    a.out   
+11   -[loop in main at vecTest.cpp:40]                 0.390s      0.390s   Vectorized (Body)                                 SSE                     4.00x                      vecTest.cpp:40    a.out   
+28   [loop in complexLoopTwo at vecTest.cpp:27]        0.110s      0.110s   Vectorized (Body)                                SSE2                     4.46x                      vecTest.cpp:27    a.out   
+14   -[loop in complexLoopTwo at vecTest.cpp:27]       0.110s      0.110s   Vectorized (Body)                                SSE2                     4.46x                      vecTest.cpp:27    a.out   
+27   [loop in complexLoop at vecTest.cpp:20]           0.050s      0.050s   Vectorized (Body)                                 SSE                     4.89x                      vecTest.cpp:20    a.out   
+13   -[loop in complexLoop at vecTest.cpp:20]          0.050s      0.050s   Vectorized (Body)                                 SSE                     4.89x                      vecTest.cpp:20    a.out   
+26   [loop in simpleLoop at vecTest.cpp:13]            0.050s      0.050s   Vectorized (Body)                                 SSE                     5.34x                      vecTest.cpp:13    a.out   
+12   -[loop in simpleLoop at vecTest.cpp:13]           0.050s      0.050s   Vectorized (Body)                                 SSE                     5.34x                      vecTest.cpp:13    a.out   

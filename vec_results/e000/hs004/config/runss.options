@@ -1,5 +1,5 @@
 -r
-/root/vec_results/e000/hs001
+/root/vec_results/e000/hs004
 -quiet
 --mrte-mode=auto
 --follow-child

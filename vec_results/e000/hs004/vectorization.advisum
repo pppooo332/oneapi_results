@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/root/vecTest.cpp"
+           line_no="40"
+           routine="main"
+           is_vectorized="1"
+           self_time="3.900093E-01"
+           total_time="3.900093E-01"
+           trip_counts=""
+           func_instance="26"
+           confidence="0"
+           efficiency="1.000000E+02"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+  <hotspot filename="/root/vecTest.cpp"
+           line_no="27"
+           routine="complexLoopTwo"
+           is_vectorized="1"
+           self_time="1.099850E-01"
+           total_time="1.099850E-01"
+           trip_counts=""
+           func_instance="25"
+           confidence="0"
+           efficiency="1.115000E+02"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+  <hotspot filename="/root/vecTest.cpp"
+           line_no="20"
+           routine="complexLoop"
+           is_vectorized="1"
+           self_time="5.000609E-02"
+           total_time="5.000609E-02"
+           trip_counts=""
+           func_instance="24"
+           confidence="0"
+           efficiency="1.222500E+02"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+  <hotspot filename="/root/vecTest.cpp"
+           line_no="13"
+           routine="simpleLoop"
+           is_vectorized="1"
+           self_time="4.999965E-02"
+           total_time="4.999965E-02"
+           trip_counts=""
+           func_instance="23"
+           confidence="0"
+           efficiency="1.335000E+02"
+           referenceEfficiency="2.500000E+01"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
