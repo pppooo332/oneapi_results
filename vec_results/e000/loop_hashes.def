@@ -1,0 +1,6 @@
+# hash file version: 3
+2	2	/root/a.out	5804	5834	/root/vecTest.cpp	20	30	1105d6193a9bb5095a8268070feefe0f	1	1	0	0	0
+3	5	/root/a.out	5700		/root/vecTest.cpp	20	33	1105d6193a9bb5095a8268070feefe0f	0	1	0	0	0
+4	6	/root/a.out	5767	5797	/root/vecTest.cpp	20	30	1105d6193a9bb5095a8268070feefe0f	1	1	0	0	0
+5	7	/root/a.out	5851		/root/vecTest.cpp	20	38	1105d6193a9bb5095a8268070feefe0f	0	1	0	0	0
+6	9	/root/a.out	5700	5733,5797,5834,5889	/root/vecTest.cpp	20	131	1105d6193a9bb5095a8268070feefe0f	1	1	0	0	0

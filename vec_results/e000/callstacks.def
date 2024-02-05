@@ -1,0 +1,17 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      4752	    0	      0	                                  _start	/root/a.out	4752	43	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      4793	    0	      0	                                  _start	/root/a.out	4752	43	0	1	0	0	0	0	0	0	0	0
+         3	         2	    138230	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	138000	446	0	8	0	0	0	0	0	0	0	0
+         4	         7	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
+         5	         3	      5661	    0	      0	                                    main	/root/a.out	5024	1392	0	4	0	0	0	0	0	0	0	0
+         6	         5	      5804	    0	      0	                             complexLoop	/root/a.out	5661	228	0	3	0	1	0	0	0	0	0	0
+         7	         6	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5733,5797,5834,5889	9	0	0	0	0	0	0	0	0
+         8	         5	      5809	    0	      0	                             complexLoop	/root/a.out	5661	228	0	3	0	1	0	0	0	0	0	0
+         9	         3	      5809	    0	      0	                                    main	/root/a.out	5024	1392	0	4	0	0	0	0	0	0	0	0
+        10	         7	      5809	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
+        11	         7	      5701	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5700	33	0	5	0	0	0	0	0	0	0	0
+        12	         7	      5768	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5767	30	5797	6	0	0	0	0	0	0	0	0
+        13	         7	      5805	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5804	30	5834	2	0	0	0	0	0	0	0	0
+        14	         7	      5852	    1	      0	        [Loop at line 20 in complexLoop]	/root/a.out	5851	38	0	7	0	0	0	0	0	0	0	0
+        15	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	11	0	0	0	0	0	0	0	0
