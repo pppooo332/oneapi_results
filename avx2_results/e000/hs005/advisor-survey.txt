@@ -1,0 +1,14 @@
+
+Intel(R) Advisor Command Line Tool
+Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
+Survey Data version="1.1.0"
+
+ID         Function Call Sites and Loops           Total Time   Self Time         Type                                            Why No Vectorization                                     Vector ISA   Compiler Estimated Gain   Transformations   Source Location   Module   
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+59   [loop in main at vecTest.cpp:40]                  0.350s      0.350s   Vectorized (Body)                                                                                                  AVX512                    11.73x                      vecTest.cpp:40    a.out   
+47   -[loop in main at vecTest.cpp:40]                 0.350s      0.350s   Vectorized (Body)                                                                                                  AVX512                    11.73x                      vecTest.cpp:40    a.out   
+58   [loop in complexLoop at vecTest.cpp:20]           0.050s      0.050s   Vectorized (Body)                                                                                                  AVX512                    16.00x                      vecTest.cpp:20    a.out   
+49   -[loop in complexLoop at vecTest.cpp:20]          0.050s      0.050s   Vectorized (Body)                                                                                                  AVX512                    16.00x                      vecTest.cpp:20    a.out   
+57   [loop in simpleLoop at vecTest.cpp:13]            0.050s      0.050s   Vectorized (Body)                                                                                                  AVX512                    14.23x                      vecTest.cpp:13    a.out   
+48   -[loop in simpleLoop at vecTest.cpp:13]           0.050s      0.050s   Vectorized (Body)                                                                                                  AVX512                    14.23x                      vecTest.cpp:13    a.out   
+50   [loop in complexLoopTwo at vecTest.cpp:27]        0.040s      0.040s              Scalar   loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria                                                             vecTest.cpp:27    a.out   

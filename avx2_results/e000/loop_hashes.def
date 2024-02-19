@@ -1,0 +1,14 @@
+# hash file version: 3
+47	2	/root/a.out	5319	5350	/root/vecTest.cpp	40	31	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+48	4	/root/a.out	5673	5704	/root/vecTest.cpp	13	31	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+49	6	/root/a.out	6032	6069	/root/vecTest.cpp	20	37	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+50	8	/root/a.out	6514	6269,6544	/root/vecTest.cpp	27	30	c8c6b7767e283aca875528241feb9240	0	1	0	0	0
+51	10	/root/a.out	5228		/root/vecTest.cpp	40	44	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+52	11	/root/a.out	5429		/root/vecTest.cpp	40	51	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+53	12	/root/a.out	5604		/root/vecTest.cpp	13	44	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+54	13	/root/a.out	5760		/root/vecTest.cpp	13	49	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+55	14	/root/a.out	5957		/root/vecTest.cpp	20	50	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+56	15	/root/a.out	6119		/root/vecTest.cpp	20	55	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+57	18	/root/a.out	5604	5648,5704,5809	/root/vecTest.cpp	13	124	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+58	19	/root/a.out	5957	6007,6069,6174	/root/vecTest.cpp	20	142	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
+59	20	/root/a.out	5228	5272,5350,5480	/root/vecTest.cpp	40	126	c8c6b7767e283aca875528241feb9240	1	1	0	0	0
