@@ -1,0 +1,35 @@
+12 [139696230154624] INFO perfrun.launcher <> - Launcher main begin
+13 [139696230154624] INFO perfrun.launcher <> - MessageCatalogInit finished
+13 [139696230154624] INFO perfrun.launcher <> - Launcher instance created
+13 [139696230154624] INFO perfrun.launcher <> - argc = 6; cmdline = /opt/intel/oneapi/advisor/2022.0.0/bin64/advixe-runss -dump-vdso -r /root/vec_samples/results/e000/hs006 --tmp-dir /tmp/advixe-tmp-root 
+49 [139696230154624] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+49 [139696230154624] INFO perfrun.launcher <> - create file finder object
+49 [139696046589696] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+49 [139696046589696] INFO perfrun.launcher <> - plugin [system] was disabled because it doesn't support the given collection type.
+49 [139696046589696] INFO perfrun.vdso <> - dumping [vdso] pseudomodule
+52 [139696046589696] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [mrte] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696046589696] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+52 [139696230154624] INFO perfrun.launcher <> - Application exit code: 0
+52 [139696230154624] INFO perfrun.launcher <> - Exit code: 0

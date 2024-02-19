@@ -1,0 +1,12 @@
+
+Intel(R) Advisor Command Line Tool
+Copyright (C) 2009-2022 Intel Corporation. All rights reserved.
+Survey Data version="1.1.0"
+
+ID     Function Call Sites and Loops      Total Time   Self Time    Type                          Why No Vectorization                          Vector ISA   Compiler Estimated Gain   Transformations   Source Location     Module      
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+22   [loop in matvec at Multiply.c:69]        2.950s      2.950s   Scalar                            vector dependence prevents vectorization                                                              Multiply.c:69   vec_samples   
+21   [loop in matvec at Multiply.c:60]        2.180s      2.180s   Scalar                            vector dependence prevents vectorization                                                              Multiply.c:60   vec_samples   
+19   [loop in matvec at Multiply.c:82]        2.110s      2.110s   Scalar                            vector dependence prevents vectorization                                                              Multiply.c:82   vec_samples   
+20   [loop in matvec at Multiply.c:49]        7.340s      0.100s   Scalar   outer loop was not auto-vectorized: consider using SIMD directive                                                              Multiply.c:49   vec_samples   
+18   [loop in main at Driver.c:155]           7.340s          0s   Scalar   loop with function call not considered an optimization candidate.                                                               Driver.c:155   vec_samples   
